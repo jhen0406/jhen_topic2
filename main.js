@@ -1,5 +1,5 @@
 let arr = []
-fetch("./response_1715069617806.json",
+fetch("https://cors-anywhere.herokuapp.com/https://www.esist.org.tw/api/v1/zone/monthly/9/1",
 )
 .then(res => res.json())
 .then(data => {
